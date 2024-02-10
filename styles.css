@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5.6px solid #323946;
+    border-radius: 5px;
+    background-color: #00eeff54;
+    backdrop-filter: invert(1);
+
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .expenses {
+    margin-top: 20px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transaction-item .description {
+    flex: 3;
+  }
+  
+  .transaction-item .amount {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .transaction-item .type {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .transaction-item .date {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    opacity: 0.7;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
